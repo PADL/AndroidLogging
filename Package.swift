@@ -25,7 +25,7 @@ let package = Package(
   targets: [
     .target(
       name: "CAndroidLogging",
-      linkerSettings: [.linkedLibrary("android")]
+      linkerSettings: [.linkedLibrary("log")]
     ),
     .target(
       name: "AndroidLogging",
